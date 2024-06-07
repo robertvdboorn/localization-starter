@@ -4,12 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "run-s download:manifest next:dev",
-    "next:dev": "next dev",
+    "next:dev": "next dev --port 9942",
     "build": "run-s download:manifest next:build",
     "next:build": "next build",
     "download:manifest": "uniform context manifest download --output ./lib/uniform/contextManifest.json",
     "uniform:publish": "uniform canvas composition push ./content/compositions --state published",
-    "start": "next start",
+    "start": "next start --port 9942",
     "start:stackblitz": "npm install && next dev",
     "uniform:pull": "uniform sync pull",
     "uniform:push": "uniform sync push"
