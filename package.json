@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "run-s download:manifest next:dev",
     "next:dev": "next dev --port 9942",
-    "build": "run-s download:manifest next:build",
+    "build": "run-s download:manifest uniform:push next:build",
     "next:build": "next build",
     "download:manifest": "uniform context manifest download --output ./lib/uniform/contextManifest.json",
     "uniform:publish": "uniform canvas composition push ./content/compositions --state published",
