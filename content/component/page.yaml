@@ -27,6 +27,7 @@ slots:
       - $personalization
       - $test
       - $localization
+      - feature
     inheritAllowedComponents: false
 slugSettings:
   unique: global
@@ -35,5 +36,5 @@ slugSettings:
   regularExpressionMessage: ''
 titleParameter: metaTitle
 canBeComposition: true
-created: '2024-01-24T09:43:21.339257+00:00'
-updated: '2024-01-24T09:43:21.339257+00:00'
+created: '2024-06-07T06:48:54.558337+00:00'
+updated: '2024-06-07T07:11:56.262628+00:00'

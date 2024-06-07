@@ -17,9 +17,87 @@ composition:
             locales:
               de-DE: Hallo Welt
               en-US: Hello World
+      - _id: 7c495cda-46d5-42c2-aac2-b136cc457291
+        type: feature
+        parameters:
+          image:
+            type: asset
+            locales:
+              en-US:
+                - _id: dcf4f2e7-2f0b-4d51-be71-cd915d3e004b
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: dd67c9d3-5c1e-4044-86f6-a2b03106f017
+                    url:
+                      value: >-
+                        https://img.uniform.global/p/lKqUd7oSTgOyP3A-lOiKcg/yn-DqU8gT8WxWjanRwl_mQ-Screenshot-2024-06-06-at-19.19.15.png
+                      type: text
+                    file:
+                      type: file
+                      value: 260aec46-b08c-4248-a86e-1821df6783f3
+                    size:
+                      value: 231982
+                      type: number
+                    title:
+                      type: text
+                      value: Screenshot-2024-06-06-at-19.19.15.png
+                    width:
+                      value: 1724
+                      type: number
+                    height:
+                      value: 1092
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                  _source: uniform-assets
+          title:
+            type: text
+            locales:
+              en-US: This is our new feature
+          description:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: 'With some '
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                        - mode: normal
+                          text: rich
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 1
+                          version: 1
+                        - mode: normal
+                          text: ' text'
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
   _locales:
     - en-US
     - de-DE
-created: '2024-01-24T09:43:22.604475+00:00'
-modified: '2024-01-24T09:55:12.768276+00:00'
+created: '2024-06-07T06:48:56.337141+00:00'
+modified: '2024-06-07T07:13:34.08048+00:00'
 pattern: false
